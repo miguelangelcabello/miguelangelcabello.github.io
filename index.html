@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miguel Angel Cabello</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="./photos/maclog.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
+<body>
+<header>
+    <div class="header">
+        <nav class="navbar" id="myTopnav">
+            <h1 class="logo">Miguel Angel <span>Cabello</span></h1>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="publications.html" class="nav-link">Publications</a></li>
+                <li class="nav-item"><a href="teaching.html" class="nav-link">Teaching</a></li>
+                <li class="nav-item"><a href="cv.html" class="nav-link">CV</a></li>
+                <li class="nav-item"><a href="ref.html" class="nav-link">References</a></li>
+                <li class="nav-item"> <a href="contact.html" class="btn">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <!-- <a href="contact.html" class="btn">Contact</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+              </a> -->
+            <!-- <a href="#" class="icon"> 
+                <i class="fa fa-bars"></i> -->
+        </nav>
+    </div>
+</header>
+
+<main>
+        <div class="content">
+            <div class="content1">
+            <!-- <h4>Hello, my name is </h4> -->
+            <h1>Miguel Angel Cabello <span>Perez</span>.</h1>
+            <h3>PhD Candidate</h3>
+            <h3>University of Carlos III, Madrid SP</h3>
+            <h5 class="contactinfo">
+                <p><a href="https://www.linkedin.com/in/miguel-angel-cabello-346233162/" target=”_blank”>LinkedIn</a> - 
+                    <a href="mailto:micabell@eco.uc3m.es">Email</a></p>
+            </h5>
+            </div>
+            <div class="content2">
+                <h2>RESEARCH INTERESTS</h2>
+            <p>Time Series Econometrics (Linear and non-Linear models)</p>
+            <p>Panel Data Econometrics</p>
+            <p>Microeconometrics Methods and Causal Inference</p> 
+            <p>Machine Learning Techniques</p> 
+            <p>Macroeconometrics.</p>
+            </div>
+        </div>
+</main>
+
+
+<!-- Skills-->
+<section>
+<div class="service">
+    <div class="title">
+        <h2>Skills</h2>
+    </div>
+
+    <div class="box">
+        <div class="card">
+           <!-- <i class="fas fa-bars"></i>-->
+            <h5>Programming Skills</h5><br>
+            <div class="pra">
+                <ul>
+                    <li>Matlab (advanced)</li><br>
+                    <li>Julia</li><br>
+                    <li>R</li><br>
+                    <li>LaTex</li><br>
+                    <li>Python</li><br>
+                    <li>SQL</li><br>
+                    <li>C</li><br>
+                    <li>Fox-Pro</li><br>
+                </ul>
+                <ul style="text-align: center;"></ul>
+            </div>
+        </div>
+        <div class="card">
+            <h5>Languages Spoken</h5><br>
+            <div class="pra">
+                <ul>
+                    <li>Spanish (Native)</li><br>
+                    <li>English (Fluent)</li>
+                </ul>
+                <ul style="text-align: center;"></ul>
+            </div>
+    </div>
+
+    <div class="card">
+        <h5>Honors & Achievements</h5><br>
+        <div class="pra">
+            <ul>
+                    <li>Econometrics Game, 2018.  Team UC3M. 1st place</li><br><br> 
+                        <li>Econometrics Game, 2019.  <br>Team UC3M. Top 10</li>
+            </ul>
+            <ul style="text-align: center;"></ul>
+        </div>
+</div>
+</div>
+</section>
+</main>
+
+<script>
+const hamburger = document.querySelector(".hamburger");
+const navMenu = document.querySelector(".nav-menu");
+
+hamburger.addEventListener("click", mobileMenu);
+
+function mobileMenu() {
+    hamburger.classList.toggle("active");
+    navMenu.classList.toggle("active");
+}
+    </script>
+
+
+
+<footer>
+    &copy; Copyright 2021, Shannon Web Dev Corp 
+</footer>
+    
+</body>
+</html>

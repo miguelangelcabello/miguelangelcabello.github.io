@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>References</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+
+    <header>
+        <div class="header">
+            <nav class="navbar" id="myTopnav">
+                <h1 class="logo">Miguel Angel<span>Cabello</span></h1>
+                <ul class="nav-menu">
+                    <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="publications.html" class="nav-link">Publications</a></li>
+                    <li class="nav-item"><a href="teaching.html" class="nav-link">Teaching</a></li>
+                    <li class="nav-item"><a href="cv.html" class="nav-link">CV</a></li>
+                    <li class="nav-item"><a href="ref.html" class="nav-link">References</a></li>
+                    <li class="nav-item"> <a href="contact.html" class="btn">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+<section>
+    <div class="references">
+
+    <h1 style="text-align: center; font-size: 2em;">References:</h1> <br>
+    <div class="ref">
+        <h1>Carlos Velasco</h1><br>
+        <h3>Fulltime Professor at Carlos III University of Madrid</h3>
+        <h4><a href="https://www.eco.uc3m.es/personal/cavelas/">https://www.eco.uc3m.es/personal/cavelas/</a></h4>
+        <br>
+        <br>
+        <h1> Jesús  Gonzalo </h1>
+        <h3>Full time Professor at Carlos III University of Madrid</h3>
+        <h4><a href= "http://economia.uc3m.es/personal/jesus-gonzalo/">http://economia.uc3m.es/personal/jesus-gonzalo/ </a></h4>
+        <br>
+        <br>
+        <h1>Juan Jose Dolado  </h1>
+        <h3>Full time Professor at Carlos III University of Madrid</h3>
+        <h4><a href="https://www.eco.uc3m.es/personal/dolado/">Full time Professor https://www.eco.uc3m.es/personal/dolado/</a></h4>
+        </div>
+
+    </div>
+</section>
+
+<script>
+    const hamburger = document.querySelector(".hamburger");
+    const navMenu = document.querySelector(".nav-menu");
+    
+    hamburger.addEventListener("click", mobileMenu);
+    
+    function mobileMenu() {
+        hamburger.classList.toggle("active");
+        navMenu.classList.toggle("active");
+    }
+</script>
+    
+
+
+</body>
+</html>

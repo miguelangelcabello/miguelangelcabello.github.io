@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miguel - CV</title>
+    <link rel="stylesheet" href="style2.css">
+
+</head>
+<body>
+    <header>
+        <div class="header">
+            <nav class="navbar" id="myTopnav">
+                <h1 class="logo">Miguel Angel <span>Cabello</span></h1>
+                <ul class="nav-menu">
+                    <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="publications.html" class="nav-link">Publications</a></li>
+                    <li class="nav-item"><a href="teaching.html" class="nav-link">Teaching</a></li>
+                    <li class="nav-item"><a href="cv.html" class="nav-link">CV</a></li>
+                    <li class="nav-item"><a href="ref.html" class="nav-link">References</a></li>
+                    <li class="nav-item"> <a href="contact.html" class="btn">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <!-- <a href="contact.html" class="btn">Contact</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                  </a> -->
+                <!-- <a href="#" class="icon"> 
+                    <i class="fa fa-bars"></i> -->
+            </nav>
+        </div>
+    </header>
+
+<div class="cvpage">
+
+    <div>
+<div class="cv">
+    <img src="./photos/1.png">
+</div>
+
+<div class="cv2">
+    <img src="./photos/2.png">
+</div>
+</div>
+
+<div class="cvbutton">
+<a class="cvbtn" href="./photos/MaCCV_v2.pdf" target=”_blank”>Download</a>
+</div>
+
+
+<footer>
+    &copy; Copyright 2021, Shannon Web Dev Corp 
+</footer>
+
+
+<script>
+    const hamburger = document.querySelector(".hamburger");
+    const navMenu = document.querySelector(".nav-menu");
+    
+    hamburger.addEventListener("click", mobileMenu);
+    
+    function mobileMenu() {
+        hamburger.classList.toggle("active");
+        navMenu.classList.toggle("active");
+    }
+</script>
+    
+
+</body>
+</html>
