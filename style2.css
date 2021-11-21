@@ -144,11 +144,11 @@ nav ul li a:hover{
 
 .cvpage {
     align-items: center;
-    padding: 20px 250px;
+    padding: 20px 30px;
 }
 
 .cvbutton{
-    padding: 20px 300px;
+    padding: 20px 30px;
 }
 
 .cvbtn{
@@ -241,7 +241,7 @@ footer {
 }
 
 .teaching2 {
-    padding: 40px 300px;
+    padding: 40px 30px;
     line-height: 30px;
 }
 
@@ -257,7 +257,7 @@ footer {
 
 .ref {
     align-items: center;
-    padding: 20px 300px;
+    padding: 20px 30px;
     white-space: nowrap;
 }
 
