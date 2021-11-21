@@ -2,8 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="HandheldFriendly" content="true">
     <title>Teaching Experience</title>
     <link rel="stylesheet" href="style2.css">
 </head>
@@ -11,7 +12,7 @@
     <header>
         <div class="header">
             <nav class="navbar" id="myTopnav">
-                <h1 class="logo">Miguel Angel<span>Cabello</span></h1>
+                <h1 class="logo">Miguel Angel<span> Cabello</span></h1>
                 <ul class="nav-menu">
                     <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
                     <li class="nav-item"><a href="publications.html" class="nav-link">Publications</a></li>
@@ -88,5 +89,18 @@
         </div>
     </div>
     
+    <script>
+        const hamburger = document.querySelector(".hamburger");
+        const navMenu = document.querySelector(".nav-menu");
+        
+        hamburger.addEventListener("click", mobileMenu);
+        
+        function mobileMenu() {
+            hamburger.classList.toggle("active");
+            navMenu.classList.toggle("active");
+        }
+    </script>
+    
 </body>
+
 </html>
