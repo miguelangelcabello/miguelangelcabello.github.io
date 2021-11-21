@@ -335,6 +335,7 @@ footer {
     .nav-menu.active {
         left: 0;
         display: flex;
+        overflow: scroll;
     }
 
     .nav-item {
