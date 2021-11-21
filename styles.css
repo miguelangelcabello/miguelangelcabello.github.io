@@ -16,9 +16,6 @@ body {
     text-decoration: none;
     color: black;
 }
-body.active{
-    position: fixed;
-}
 
 .header {
     width: 100%;
@@ -334,8 +331,6 @@ footer {
 
     .nav-menu.active {
         left: 0;
-        display: flex;
-        overflow: scroll;
     }
 
     .nav-item {
