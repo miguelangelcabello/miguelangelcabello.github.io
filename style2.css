@@ -133,7 +133,7 @@ nav ul li a:hover{
 }
 
 .pub2 {
-    padding: 10px 300px;
+    padding: 10px 30px;
 }
 
 
@@ -305,14 +305,15 @@ footer {
  }
 
 
-@media only screen and (max-width: 768px) {
+/*Media Query: Tablet Landscape*/
+@media screen and (max-width: 1060px) {
     .nav-menu {
         position: fixed;
         left: -100%;
         top: 5rem;
         flex-direction: column;
         background-color: #fff;
-        width: 100%;
+        width: 67%;
         border-radius: 10px;
         text-align: center;
         transition: 0.3s;
@@ -325,7 +326,8 @@ footer {
     }
 
     .nav-item {
-        margin: 2.5rem 0;
+        width: 30%;
+        margin-left:3%;
     }
 
     .hamburger {
@@ -346,11 +348,46 @@ footer {
     }
 }
 
-@media (max-width: 800px) {
-    .box {
-      flex-direction: column;
+/*Media Query: Tabled Portrait*/
+@media screen and (max-width: 768px) {
+    .nav-menu {
+        position: fixed;
+        left: -100%;
+        top: 5rem;
+        flex-direction: column;
+        background-color: #fff;
+        width: 100%;
+        border-radius: 10px;
+        text-align: center;
+        transition: 0.3s;
+        box-shadow:
+            0 10px 27px rgba(0, 0, 0, 0.05);
     }
-    .title {
-        text-align: left;
-      }
+
+    .nav-menu.active {
+        left: 0;
+    }
+
+    .nav-item {
+        width: 100%;
+        margin:0;
+        border: none;
+    }
+
+    .hamburger {
+        display: block;
+        cursor: pointer;
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
   }
